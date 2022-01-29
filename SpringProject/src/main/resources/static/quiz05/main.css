@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  width: 100%;
+  min-width: 800px;
+  display: flex;
+  min-height: 1000px;
+}
+.main-wrapper .sidebar1 {
+  width: 17%;
+  background-color: #009ae1;
+  padding-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+}
+.main-wrapper .sidebar1 .title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.main-wrapper .sidebar1 .title a {
+  display: inline-block;
+  font-size: 1.5rem;
+  height: 48px;
+  line-height: 48px;
+  padding-left: 40px;
+  background: url("https://www.weather.go.kr/w/resources/image/logo_mark.png") no-repeat left center;
+  background-size: auto 32px;
+  text-decoration: none;
+  color: white;
+}
+.main-wrapper .sidebar1 .title a:hover {
+  color: white;
+}
+.main-wrapper .sidebar1 .menu {
+  width: 100%;
+}
+.main-wrapper .sidebar1 .menu a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+.main-wrapper .sidebar1 .menu a:hover {
+  color: white;
+}
+.main-wrapper .sidebar1 .menu:hover {
+  border: 2px solid lightblue;
+}
+.main-wrapper .main {
+  width: 75%;
+  padding-left: 3%;
+  padding-top: 50px;
+}
+
+#btn-submit {
+  margin-left: 75%;
+}
+
+.footer {
+  width: 100%;
+  min-width: 800px;
+  min-height: 150px;
+  color: grey;
+  display: flex;
+  border-top: 1px solid grey;
+}
+.footer .logo {
+  width: 17%;
+  overflow: hidden;
+  text-align: center;
+}
+.footer .logo img {
+  display: inline-block;
+  margin-top: 20px;
+  width: 60%;
+  filter: grayscale(80%);
+}
+.footer .content {
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
